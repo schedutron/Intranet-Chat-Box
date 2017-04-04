@@ -3,7 +3,7 @@ from asynchat import async_chat
 import socket, asyncore
 
 PORT = 5005
-NAME = "TestChat"
+NAME = "LNMChat"
 
 class EndSession(Exception): pass
 
